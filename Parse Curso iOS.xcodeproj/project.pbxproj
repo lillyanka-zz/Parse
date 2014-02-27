@@ -21,6 +21,21 @@
 		2B7E95C518BEBB67008CCC0B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95A718BEBB66008CCC0B /* UIKit.framework */; };
 		2B7E95CD18BEBB67008CCC0B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E95CB18BEBB67008CCC0B /* InfoPlist.strings */; };
 		2B7E95CF18BEBB67008CCC0B /* Parse_Curso_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E95CE18BEBB67008CCC0B /* Parse_Curso_iOSTests.m */; };
+		2B7E95D918BEBBF8008CCC0B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95D818BEBBF8008CCC0B /* Parse.framework */; };
+		2B7E95DB18BEBC09008CCC0B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95DA18BEBC09008CCC0B /* AudioToolbox.framework */; };
+		2B7E95DD18BEBC0F008CCC0B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95DC18BEBC0F008CCC0B /* CFNetwork.framework */; };
+		2B7E95DF18BEBC20008CCC0B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95DE18BEBC20008CCC0B /* CoreLocation.framework */; };
+		2B7E95E118BEBC27008CCC0B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95E018BEBC27008CCC0B /* libz.dylib */; };
+		2B7E95E318BEBC2F008CCC0B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95E218BEBC2F008CCC0B /* MobileCoreServices.framework */; };
+		2B7E95E518BEBC36008CCC0B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95E418BEBC36008CCC0B /* QuartzCore.framework */; };
+		2B7E95E718BEBC3C008CCC0B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95E618BEBC3C008CCC0B /* Security.framework */; };
+		2B7E95E918BEBC49008CCC0B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95E818BEBC49008CCC0B /* StoreKit.framework */; };
+		2B7E95EB18BEBC6E008CCC0B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7E95EA18BEBC6E008CCC0B /* SystemConfiguration.framework */; };
+		2B7E95EE18BEC31C008CCC0B /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E95ED18BEC31C008CCC0B /* RegisterViewController.m */; };
+		2B7E95F118BEC335008CCC0B /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E95F018BEC335008CCC0B /* WelcomeViewController.m */; };
+		2B7E95F618BECDA9008CCC0B /* CSNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E95F418BECDA9008CCC0B /* CSNotificationView.m */; };
+		2B7E95F718BECDA9008CCC0B /* CSNotificationView.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E95F518BECDA9008CCC0B /* CSNotificationView.xcassets */; };
+		2BE9316618BEDDC6004DBD1A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE9316518BEDDC6004DBD1A /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +68,25 @@
 		2B7E95CA18BEBB67008CCC0B /* Parse Curso iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Parse Curso iOSTests-Info.plist"; sourceTree = "<group>"; };
 		2B7E95CC18BEBB67008CCC0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B7E95CE18BEBB67008CCC0B /* Parse_Curso_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parse_Curso_iOSTests.m; sourceTree = "<group>"; };
+		2B7E95D818BEBBF8008CCC0B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2B7E95DA18BEBC09008CCC0B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2B7E95DC18BEBC0F008CCC0B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2B7E95DE18BEBC20008CCC0B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2B7E95E018BEBC27008CCC0B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2B7E95E218BEBC2F008CCC0B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2B7E95E418BEBC36008CCC0B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2B7E95E618BEBC3C008CCC0B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2B7E95E818BEBC49008CCC0B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2B7E95EA18BEBC6E008CCC0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2B7E95EC18BEC31C008CCC0B /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		2B7E95ED18BEC31C008CCC0B /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		2B7E95EF18BEC335008CCC0B /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		2B7E95F018BEC335008CCC0B /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		2B7E95F318BECDA9008CCC0B /* CSNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSNotificationView.h; sourceTree = "<group>"; };
+		2B7E95F418BECDA9008CCC0B /* CSNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSNotificationView.m; sourceTree = "<group>"; };
+		2B7E95F518BECDA9008CCC0B /* CSNotificationView.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CSNotificationView.xcassets; sourceTree = "<group>"; };
+		2BE9316418BEDDC6004DBD1A /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2BE9316518BEDDC6004DBD1A /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +94,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7E95EB18BEBC6E008CCC0B /* SystemConfiguration.framework in Frameworks */,
+				2B7E95E918BEBC49008CCC0B /* StoreKit.framework in Frameworks */,
+				2B7E95E718BEBC3C008CCC0B /* Security.framework in Frameworks */,
+				2B7E95E518BEBC36008CCC0B /* QuartzCore.framework in Frameworks */,
+				2B7E95E318BEBC2F008CCC0B /* MobileCoreServices.framework in Frameworks */,
+				2B7E95E118BEBC27008CCC0B /* libz.dylib in Frameworks */,
+				2B7E95DF18BEBC20008CCC0B /* CoreLocation.framework in Frameworks */,
 				2B7E95A618BEBB66008CCC0B /* CoreGraphics.framework in Frameworks */,
+				2B7E95DD18BEBC0F008CCC0B /* CFNetwork.framework in Frameworks */,
+				2B7E95DB18BEBC09008CCC0B /* AudioToolbox.framework in Frameworks */,
 				2B7E95A818BEBB66008CCC0B /* UIKit.framework in Frameworks */,
+				2B7E95D918BEBBF8008CCC0B /* Parse.framework in Frameworks */,
 				2B7E95A418BEBB66008CCC0B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +145,16 @@
 		2B7E95A218BEBB66008CCC0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B7E95EA18BEBC6E008CCC0B /* SystemConfiguration.framework */,
+				2B7E95E818BEBC49008CCC0B /* StoreKit.framework */,
+				2B7E95E618BEBC3C008CCC0B /* Security.framework */,
+				2B7E95E418BEBC36008CCC0B /* QuartzCore.framework */,
+				2B7E95E218BEBC2F008CCC0B /* MobileCoreServices.framework */,
+				2B7E95E018BEBC27008CCC0B /* libz.dylib */,
+				2B7E95DE18BEBC20008CCC0B /* CoreLocation.framework */,
+				2B7E95DC18BEBC0F008CCC0B /* CFNetwork.framework */,
+				2B7E95DA18BEBC09008CCC0B /* AudioToolbox.framework */,
+				2B7E95D818BEBBF8008CCC0B /* Parse.framework */,
 				2B7E95A318BEBB66008CCC0B /* Foundation.framework */,
 				2B7E95A518BEBB66008CCC0B /* CoreGraphics.framework */,
 				2B7E95A718BEBB66008CCC0B /* UIKit.framework */,
@@ -115,6 +169,12 @@
 				2B7E95B218BEBB67008CCC0B /* AppDelegate.h */,
 				2B7E95B318BEBB67008CCC0B /* AppDelegate.m */,
 				2B7E95B518BEBB67008CCC0B /* Main.storyboard */,
+				2BE9316418BEDDC6004DBD1A /* TableViewController.h */,
+				2BE9316518BEDDC6004DBD1A /* TableViewController.m */,
+				2B7E95EF18BEC335008CCC0B /* WelcomeViewController.h */,
+				2B7E95F018BEC335008CCC0B /* WelcomeViewController.m */,
+				2B7E95EC18BEC31C008CCC0B /* RegisterViewController.h */,
+				2B7E95ED18BEC31C008CCC0B /* RegisterViewController.m */,
 				2B7E95B818BEBB67008CCC0B /* ViewController.h */,
 				2B7E95B918BEBB67008CCC0B /* ViewController.m */,
 				2B7E95BB18BEBB67008CCC0B /* Images.xcassets */,
@@ -126,6 +186,7 @@
 		2B7E95AA18BEBB67008CCC0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B7E95F218BECDA9008CCC0B /* CSNotificationView */,
 				2B7E95AB18BEBB67008CCC0B /* Parse Curso iOS-Info.plist */,
 				2B7E95AC18BEBB67008CCC0B /* InfoPlist.strings */,
 				2B7E95AF18BEBB67008CCC0B /* main.m */,
@@ -150,6 +211,16 @@
 				2B7E95CB18BEBB67008CCC0B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B7E95F218BECDA9008CCC0B /* CSNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				2B7E95F318BECDA9008CCC0B /* CSNotificationView.h */,
+				2B7E95F418BECDA9008CCC0B /* CSNotificationView.m */,
+				2B7E95F518BECDA9008CCC0B /* CSNotificationView.xcassets */,
+			);
+			path = CSNotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +302,7 @@
 				2B7E95BC18BEBB67008CCC0B /* Images.xcassets in Resources */,
 				2B7E95AE18BEBB67008CCC0B /* InfoPlist.strings in Resources */,
 				2B7E95B718BEBB67008CCC0B /* Main.storyboard in Resources */,
+				2B7E95F718BECDA9008CCC0B /* CSNotificationView.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +321,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7E95F118BEC335008CCC0B /* WelcomeViewController.m in Sources */,
 				2B7E95BA18BEBB67008CCC0B /* ViewController.m in Sources */,
 				2B7E95B418BEBB67008CCC0B /* AppDelegate.m in Sources */,
+				2B7E95F618BECDA9008CCC0B /* CSNotificationView.m in Sources */,
 				2B7E95B018BEBB67008CCC0B /* main.m in Sources */,
+				2BE9316618BEDDC6004DBD1A /* TableViewController.m in Sources */,
+				2B7E95EE18BEC31C008CCC0B /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/supervisor/Sites/Parse\\ Curso\\ iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse Curso iOS/Parse Curso iOS-Prefix.pch";
 				INFOPLIST_FILE = "Parse Curso iOS/Parse Curso iOS-Info.plist";
@@ -391,6 +471,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/supervisor/Sites/Parse\\ Curso\\ iOS",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parse Curso iOS/Parse Curso iOS-Prefix.pch";
 				INFOPLIST_FILE = "Parse Curso iOS/Parse Curso iOS-Info.plist";
@@ -460,6 +544,7 @@
 				2B7E95D418BEBB67008CCC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B7E95D518BEBB67008CCC0B /* Build configuration list for PBXNativeTarget "Parse Curso iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +553,7 @@
 				2B7E95D718BEBB67008CCC0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
